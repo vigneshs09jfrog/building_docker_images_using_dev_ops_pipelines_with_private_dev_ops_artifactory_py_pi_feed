@@ -5,7 +5,6 @@ resources:
 - repo: self
 
 variables:
-  dockerRegistryServiceConnection: '00000000-0000-0000-0000-000000000000'
   imageRepository: 'my-service'
   containerRegistry: 'myregistry.azurecr.io'
   dockerfilePath: 'Dockerfile'
